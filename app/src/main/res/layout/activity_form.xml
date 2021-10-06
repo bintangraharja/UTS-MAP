@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_form"
+    tools:context=".Form">
+
+    <LinearLayout
+        android:layout_width="282dp"
+        android:layout_height="288dp"
+        android:background="@drawable/circle"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.519">
+
+        <TextView
+            android:id="@+id/LoginPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="LOGIN PAGE"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/inputbox"
+            android:hint="Masukan nama anda"
+            android:gravity="center"
+            android:textColor="@color/grey" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:text="NEXT"
+            android:background="@drawable/rounded_btn"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

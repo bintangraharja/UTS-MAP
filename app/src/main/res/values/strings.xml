@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UTS_37686_BintangRaharja</string>
+    <string name="title">SFX Library and Previewer!</string>
+    <string name="SFX">SFX</string>
+    <string name="profile">PROFILE</string>
+    <string name="libs">LIBRARY</string>
+    <string name="play">PLAY SFX</string>
+</resources>
